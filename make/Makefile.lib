@@ -17,12 +17,6 @@ SOURCES := \
   utility/stdlib.js \
   utility/namespace.js \
   utility/publisher.js \
-  concept/model/behavior.js \
-  concept/model/value.js \
-  concept/bindings/ast.js \
-  concept/bindings/behavior.js \
-  concept/bindings/builder.js \
-  concept/bindings/controller.js \
   model/model.js \
   model/solver/solver.js \
   model/solver/helpers.js \
