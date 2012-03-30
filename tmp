@@ -1,0 +1,2745 @@
+{ type: 'Program',
+  body: 
+   [ { type: 'ExpressionStatement',
+       expression: 
+        { type: 'CallExpression',
+          callee: 
+           { type: 'FunctionExpression',
+             id: null,
+             params: [],
+             body: 
+              { type: 'BlockStatement',
+                body: 
+                 [ { type: 'VariableDeclaration',
+                     declarations: 
+                      [ { type: 'VariableDeclarator',
+                          id: 
+                           { type: 'Identifier',
+                             name: 'Solver',
+                             range: [Object],
+                             loc: [Object] },
+                          init: 
+                           { type: 'FunctionExpression',
+                             id: [Object],
+                             params: [],
+                             body: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 279, 782 ],
+                          loc: { start: [Object], end: [Object] } } ],
+                     kind: 'var',
+                     range: [ 275, 783 ],
+                     loc: { start: { line: 19, column: 1 }, end: { line: 34, column: 3 } },
+                     comment: 
+                      { range: [ 208, 271 ],
+                        type: 'Block',
+                        value: '*\n   * @constructor Solver\n   * @memberOf hotdrink.model\n   ',
+                        subject: [Circular] } },
+                   { type: 'ExpressionStatement',
+                     expression: 
+                      { type: 'AssignmentExpression',
+                        operator: '=',
+                        left: 
+                         { type: 'MemberExpression',
+                           computed: false,
+                           object: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           property: 
+                            { type: 'Identifier',
+                              name: 'promote',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 933, 956 ],
+                           loc: { start: [Object], end: [Object] } },
+                        right: 
+                         { type: 'FunctionExpression',
+                           id: 
+                            { type: 'Identifier',
+                              name: 'promote',
+                              range: [Object],
+                              loc: [Object] },
+                           params: [ [Object] ],
+                           body: 
+                            { type: 'BlockStatement',
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 960, 1232 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 933, 1232 ],
+                        loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 2 } } },
+                     range: [ 933, 1233 ],
+                     loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+                     comment: 
+                      { range: [ 788, 929 ],
+                        type: 'Block',
+                        value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+                        subject: [Circular] } },
+                   { type: 'ExpressionStatement',
+                     expression: 
+                      { type: 'AssignmentExpression',
+                        operator: '=',
+                        left: 
+                         { type: 'MemberExpression',
+                           computed: false,
+                           object: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           property: 
+                            { type: 'Identifier',
+                              name: 'solve',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1437, 1458 ],
+                           loc: { start: [Object], end: [Object] } },
+                        right: 
+                         { type: 'FunctionExpression',
+                           id: 
+                            { type: 'Identifier',
+                              name: 'solve',
+                              range: [Object],
+                              loc: [Object] },
+                           params: [],
+                           body: 
+                            { type: 'BlockStatement',
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1462, 3433 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 1437, 3433 ],
+                        loc: 
+                         { start: { line: 58, column: 1 },
+                           end: { line: 118, column: 2 } } },
+                     range: [ 1437, 3434 ],
+                     loc: 
+                      { start: { line: 58, column: 1 },
+                        end: { line: 118, column: 3 } },
+                     comment: 
+                      { range: [ 1238, 1433 ],
+                        type: 'Block',
+                        value: '*\n   * Use the priority to solve the constraint graph.\n   * @method solve\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]} Methods that are new in the solution.\n   ',
+                        subject: [Circular] } },
+                   { type: 'ExpressionStatement',
+                     expression: 
+                      { type: 'AssignmentExpression',
+                        operator: '=',
+                        left: 
+                         { type: 'MemberExpression',
+                           computed: false,
+                           object: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           property: 
+                            { type: 'Identifier',
+                              name: 'getPlan',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3610, 3633 ],
+                           loc: { start: [Object], end: [Object] } },
+                        right: 
+                         { type: 'FunctionExpression',
+                           id: 
+                            { type: 'Identifier',
+                              name: 'getPlan',
+                              range: [Object],
+                              loc: [Object] },
+                           params: [],
+                           body: 
+                            { type: 'BlockStatement',
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3637, 4085 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3610, 4085 ],
+                        loc: 
+                         { start: { line: 126, column: 1 },
+                           end: { line: 138, column: 2 } } },
+                     range: [ 3610, 4086 ],
+                     loc: 
+                      { start: { line: 126, column: 1 },
+                        end: { line: 138, column: 3 } },
+                     comment: 
+                      { range: [ 3439, 3606 ],
+                        type: 'Block',
+                        value: '*\n   * @method getPlan\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]}\n   *   Methods selected for satisfied, required constraints.\n   ',
+                        subject: [Circular] } },
+                   { type: 'ExpressionStatement',
+                     expression: 
+                      { type: 'AssignmentExpression',
+                        operator: '=',
+                        left: 
+                         { type: 'MemberExpression',
+                           computed: false,
+                           object: 
+                            { type: 'CallExpression',
+                              callee: [Object],
+                              arguments: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           property: 
+                            { type: 'Identifier',
+                              name: 'Solver',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 4105, 4129 ],
+                           loc: { start: [Object], end: [Object] } },
+                        right: 
+                         { type: 'Identifier',
+                           name: 'Solver',
+                           range: [ 4133, 4138 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 4091, 4138 ],
+                        loc: 
+                         { start: { line: 140, column: 1 },
+                           end: { line: 140, column: 49 } } },
+                     range: [ 4091, 4139 ],
+                     loc: 
+                      { start: { line: 140, column: 1 },
+                        end: { line: 140, column: 50 } } } ],
+                range: [ 107, 4142 ],
+                loc: 
+                 { start: { line: 8, column: 12 },
+                   end: { line: 142, column: 0 } } },
+             range: [ 95, 4142 ],
+             loc: { start: { line: 8, column: 0 }, end: { line: 142, column: 0 } } },
+          arguments: [],
+          range: [ 94, 4145 ],
+          loc: 
+           { start: { line: 8, column: -1 },
+             end: { line: 142, column: 3 } } },
+       range: [ 94, 4146 ],
+       loc: 
+        { start: { line: 8, column: -1 },
+          end: { line: 142, column: 4 } },
+       comment: 
+        { range: [ 56, 92 ],
+          type: 'Line',
+          value: 'provides("hotdrink.model.Solver");',
+          subject: [Circular] } } ],
+  range: [ 94, 4146 ],
+  loc: 
+   { start: { line: 8, column: -1 },
+     end: { line: 142, column: 4 } },
+  comments: 
+   [ { range: [ 0, 53 ],
+       type: 'Block',
+       value: '*\n * @author John Freeman\n * @author Wonseok Kim\n ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'CallExpression',
+             callee: 
+              { type: 'FunctionExpression',
+                id: null,
+                params: [],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 275, 783 ],
+                        loc: { start: { line: 19, column: 1 }, end: { line: 34, column: 3 } },
+                        comment: 
+                         { range: [ 208, 271 ],
+                           type: 'Block',
+                           value: '*\n   * @constructor Solver\n   * @memberOf hotdrink.model\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'FunctionExpression',
+                              id: [Object],
+                              params: [Object],
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 933, 1232 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 933, 1233 ],
+                        loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+                        comment: 
+                         { range: [ 788, 929 ],
+                           type: 'Block',
+                           value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'FunctionExpression',
+                              id: [Object],
+                              params: [],
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1437, 3433 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 1437, 3434 ],
+                        loc: 
+                         { start: { line: 58, column: 1 },
+                           end: { line: 118, column: 3 } },
+                        comment: 
+                         { range: [ 1238, 1433 ],
+                           type: 'Block',
+                           value: '*\n   * Use the priority to solve the constraint graph.\n   * @method solve\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]} Methods that are new in the solution.\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'FunctionExpression',
+                              id: [Object],
+                              params: [],
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3610, 4085 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3610, 4086 ],
+                        loc: 
+                         { start: { line: 126, column: 1 },
+                           end: { line: 138, column: 3 } },
+                        comment: 
+                         { range: [ 3439, 3606 ],
+                           type: 'Block',
+                           value: '*\n   * @method getPlan\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]}\n   *   Methods selected for satisfied, required constraints.\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'Identifier',
+                              name: 'Solver',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 4091, 4138 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 4091, 4139 ],
+                        loc: 
+                         { start: { line: 140, column: 1 },
+                           end: { line: 140, column: 50 } } } ],
+                   range: [ 107, 4142 ],
+                   loc: 
+                    { start: { line: 8, column: 12 },
+                      end: { line: 142, column: 0 } } },
+                range: [ 95, 4142 ],
+                loc: { start: { line: 8, column: 0 }, end: { line: 142, column: 0 } } },
+             arguments: [],
+             range: [ 94, 4145 ],
+             loc: 
+              { start: { line: 8, column: -1 },
+                end: { line: 142, column: 3 } } },
+          range: [ 94, 4146 ],
+          loc: 
+           { start: { line: 8, column: -1 },
+             end: { line: 142, column: 4 } },
+          comment: 
+           { range: [ 56, 92 ],
+             type: 'Line',
+             value: 'provides("hotdrink.model.Solver");',
+             subject: [Circular] } } },
+     { range: [ 56, 92 ],
+       type: 'Line',
+       value: 'provides("hotdrink.model.Solver");',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'CallExpression',
+             callee: 
+              { type: 'FunctionExpression',
+                id: null,
+                params: [],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 275, 783 ],
+                        loc: { start: { line: 19, column: 1 }, end: { line: 34, column: 3 } },
+                        comment: 
+                         { range: [ 208, 271 ],
+                           type: 'Block',
+                           value: '*\n   * @constructor Solver\n   * @memberOf hotdrink.model\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'FunctionExpression',
+                              id: [Object],
+                              params: [Object],
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 933, 1232 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 933, 1233 ],
+                        loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+                        comment: 
+                         { range: [ 788, 929 ],
+                           type: 'Block',
+                           value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'FunctionExpression',
+                              id: [Object],
+                              params: [],
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1437, 3433 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 1437, 3434 ],
+                        loc: 
+                         { start: { line: 58, column: 1 },
+                           end: { line: 118, column: 3 } },
+                        comment: 
+                         { range: [ 1238, 1433 ],
+                           type: 'Block',
+                           value: '*\n   * Use the priority to solve the constraint graph.\n   * @method solve\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]} Methods that are new in the solution.\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'FunctionExpression',
+                              id: [Object],
+                              params: [],
+                              body: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3610, 4085 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3610, 4086 ],
+                        loc: 
+                         { start: { line: 126, column: 1 },
+                           end: { line: 138, column: 3 } },
+                        comment: 
+                         { range: [ 3439, 3606 ],
+                           type: 'Block',
+                           value: '*\n   * @method getPlan\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]}\n   *   Methods selected for satisfied, required constraints.\n   ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'Identifier',
+                              name: 'Solver',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 4091, 4138 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 4091, 4139 ],
+                        loc: 
+                         { start: { line: 140, column: 1 },
+                           end: { line: 140, column: 50 } } } ],
+                   range: [ 107, 4142 ],
+                   loc: 
+                    { start: { line: 8, column: 12 },
+                      end: { line: 142, column: 0 } } },
+                range: [ 95, 4142 ],
+                loc: { start: { line: 8, column: 0 }, end: { line: 142, column: 0 } } },
+             arguments: [],
+             range: [ 94, 4145 ],
+             loc: 
+              { start: { line: 8, column: -1 },
+                end: { line: 142, column: 3 } } },
+          range: [ 94, 4146 ],
+          loc: 
+           { start: { line: 8, column: -1 },
+             end: { line: 142, column: 4 } },
+          comment: [Circular] } },
+     { range: [ 112, 204 ],
+       type: 'Block',
+       value: '*\n   * QuickPlan incremental solver.\n   * @class Solver\n   * @memberOf hotdrink.model\n   ',
+       subject: 
+        { type: 'VariableDeclaration',
+          declarations: 
+           [ { type: 'VariableDeclarator',
+               id: 
+                { type: 'Identifier',
+                  name: 'Solver',
+                  range: [ 279, 284 ],
+                  loc: 
+                   { start: { line: 19, column: 5 },
+                     end: { line: 19, column: 11 } } },
+               init: 
+                { type: 'FunctionExpression',
+                  id: 
+                   { type: 'Identifier',
+                     name: 'Solver',
+                     range: [ 297, 302 ],
+                     loc: 
+                      { start: { line: 19, column: 23 },
+                        end: { line: 19, column: 29 } } },
+                  params: [],
+                  body: 
+                   { type: 'BlockStatement',
+                     body: 
+                      [ { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 312, 334 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 340, 358 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 364, 382 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 456, 481 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 488, 507 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 513, 534 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 611, 639 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 672, 701 ],
+                          loc: { start: [Object], end: [Object] } } ],
+                     range: [ 306, 782 ],
+                     loc: 
+                      { start: { line: 19, column: 32 },
+                        end: { line: 34, column: 2 } } },
+                  range: [ 288, 782 ],
+                  loc: 
+                   { start: { line: 19, column: 14 },
+                     end: { line: 34, column: 2 } } },
+               range: [ 279, 782 ],
+               loc: { start: { line: 19, column: 5 }, end: { line: 34, column: 2 } } } ],
+          kind: 'var',
+          range: [ 275, 783 ],
+          loc: { start: { line: 19, column: 1 }, end: { line: 34, column: 3 } },
+          comment: 
+           { range: [ 208, 271 ],
+             type: 'Block',
+             value: '*\n   * @constructor Solver\n   * @memberOf hotdrink.model\n   ',
+             subject: [Circular] } } },
+     { range: [ 208, 271 ],
+       type: 'Block',
+       value: '*\n   * @constructor Solver\n   * @memberOf hotdrink.model\n   ',
+       subject: 
+        { type: 'VariableDeclaration',
+          declarations: 
+           [ { type: 'VariableDeclarator',
+               id: 
+                { type: 'Identifier',
+                  name: 'Solver',
+                  range: [ 279, 284 ],
+                  loc: 
+                   { start: { line: 19, column: 5 },
+                     end: { line: 19, column: 11 } } },
+               init: 
+                { type: 'FunctionExpression',
+                  id: 
+                   { type: 'Identifier',
+                     name: 'Solver',
+                     range: [ 297, 302 ],
+                     loc: 
+                      { start: { line: 19, column: 23 },
+                        end: { line: 19, column: 29 } } },
+                  params: [],
+                  body: 
+                   { type: 'BlockStatement',
+                     body: 
+                      [ { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 312, 334 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 340, 358 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 364, 382 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 456, 481 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 488, 507 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 513, 534 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 611, 639 ],
+                          loc: { start: [Object], end: [Object] } },
+                        { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 672, 701 ],
+                          loc: { start: [Object], end: [Object] } } ],
+                     range: [ 306, 782 ],
+                     loc: 
+                      { start: { line: 19, column: 32 },
+                        end: { line: 34, column: 2 } } },
+                  range: [ 288, 782 ],
+                  loc: 
+                   { start: { line: 19, column: 14 },
+                     end: { line: 34, column: 2 } } },
+               range: [ 279, 782 ],
+               loc: { start: { line: 19, column: 5 }, end: { line: 34, column: 2 } } } ],
+          kind: 'var',
+          range: [ 275, 783 ],
+          loc: { start: { line: 19, column: 1 }, end: { line: 34, column: 3 } },
+          comment: [Circular] } },
+     { range: [ 389, 450 ],
+       type: 'Block',
+       value: ' We can re-use a solution if the priority hasn\'t changed. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 933, 938 ],
+                      loc: { start: { line: 42, column: 1 }, end: { line: 42, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 940, 948 ],
+                      loc: 
+                       { start: { line: 42, column: 8 },
+                         end: { line: 42, column: 17 } } },
+                   range: [ 933, 948 ],
+                   loc: 
+                    { start: { line: 42, column: 1 },
+                      end: { line: 42, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 950, 956 ],
+                   loc: 
+                    { start: { line: 42, column: 18 },
+                      end: { line: 42, column: 25 } } },
+                range: [ 933, 956 ],
+                loc: 
+                 { start: { line: 42, column: 1 },
+                   end: { line: 42, column: 25 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 969, 975 ],
+                   loc: 
+                    { start: { line: 42, column: 37 },
+                      end: { line: 42, column: 44 } } },
+                params: 
+                 [ { type: 'Identifier',
+                     name: 'vv',
+                     range: [ 977, 978 ],
+                     loc: 
+                      { start: { line: 42, column: 45 },
+                        end: { line: 42, column: 47 } } } ],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 987, 1005 ],
+                        loc: 
+                         { start: { line: 43, column: 3 },
+                           end: { line: 43, column: 22 } } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '!==',
+                           left: 
+                            { type: 'Identifier',
+                              name: 'vvv',
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'MemberExpression',
+                              computed: true,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1015, 1038 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object], [Object] ],
+                           range: [ 1041, 1228 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1011, 1228 ],
+                        loc: { start: { line: 44, column: 3 }, end: { line: 49, column: 4 } } } ],
+                   range: [ 981, 1232 ],
+                   loc: 
+                    { start: { line: 42, column: 49 },
+                      end: { line: 50, column: 2 } } },
+                range: [ 960, 1232 ],
+                loc: 
+                 { start: { line: 42, column: 28 },
+                   end: { line: 50, column: 2 } } },
+             range: [ 933, 1232 ],
+             loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 2 } } },
+          range: [ 933, 1233 ],
+          loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+          comment: 
+           { range: [ 788, 929 ],
+             type: 'Block',
+             value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+             subject: [Circular] } } },
+     { range: [ 541, 605 ],
+       type: 'Block',
+       value: ' This heap uses popStrongest() in constraintHierarchySolver. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 933, 938 ],
+                      loc: { start: { line: 42, column: 1 }, end: { line: 42, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 940, 948 ],
+                      loc: 
+                       { start: { line: 42, column: 8 },
+                         end: { line: 42, column: 17 } } },
+                   range: [ 933, 948 ],
+                   loc: 
+                    { start: { line: 42, column: 1 },
+                      end: { line: 42, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 950, 956 ],
+                   loc: 
+                    { start: { line: 42, column: 18 },
+                      end: { line: 42, column: 25 } } },
+                range: [ 933, 956 ],
+                loc: 
+                 { start: { line: 42, column: 1 },
+                   end: { line: 42, column: 25 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 969, 975 ],
+                   loc: 
+                    { start: { line: 42, column: 37 },
+                      end: { line: 42, column: 44 } } },
+                params: 
+                 [ { type: 'Identifier',
+                     name: 'vv',
+                     range: [ 977, 978 ],
+                     loc: 
+                      { start: { line: 42, column: 45 },
+                        end: { line: 42, column: 47 } } } ],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 987, 1005 ],
+                        loc: 
+                         { start: { line: 43, column: 3 },
+                           end: { line: 43, column: 22 } } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '!==',
+                           left: 
+                            { type: 'Identifier',
+                              name: 'vvv',
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'MemberExpression',
+                              computed: true,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1015, 1038 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object], [Object] ],
+                           range: [ 1041, 1228 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1011, 1228 ],
+                        loc: { start: { line: 44, column: 3 }, end: { line: 49, column: 4 } } } ],
+                   range: [ 981, 1232 ],
+                   loc: 
+                    { start: { line: 42, column: 49 },
+                      end: { line: 50, column: 2 } } },
+                range: [ 960, 1232 ],
+                loc: 
+                 { start: { line: 42, column: 28 },
+                   end: { line: 50, column: 2 } } },
+             range: [ 933, 1232 ],
+             loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 2 } } },
+          range: [ 933, 1233 ],
+          loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+          comment: 
+           { range: [ 788, 929 ],
+             type: 'Block',
+             value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+             subject: [Circular] } } },
+     { range: [ 648, 667 ],
+       type: 'Line',
+       value: ' Heap<Constraint>',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 933, 938 ],
+                      loc: { start: { line: 42, column: 1 }, end: { line: 42, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 940, 948 ],
+                      loc: 
+                       { start: { line: 42, column: 8 },
+                         end: { line: 42, column: 17 } } },
+                   range: [ 933, 948 ],
+                   loc: 
+                    { start: { line: 42, column: 1 },
+                      end: { line: 42, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 950, 956 ],
+                   loc: 
+                    { start: { line: 42, column: 18 },
+                      end: { line: 42, column: 25 } } },
+                range: [ 933, 956 ],
+                loc: 
+                 { start: { line: 42, column: 1 },
+                   end: { line: 42, column: 25 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 969, 975 ],
+                   loc: 
+                    { start: { line: 42, column: 37 },
+                      end: { line: 42, column: 44 } } },
+                params: 
+                 [ { type: 'Identifier',
+                     name: 'vv',
+                     range: [ 977, 978 ],
+                     loc: 
+                      { start: { line: 42, column: 45 },
+                        end: { line: 42, column: 47 } } } ],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 987, 1005 ],
+                        loc: 
+                         { start: { line: 43, column: 3 },
+                           end: { line: 43, column: 22 } } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '!==',
+                           left: 
+                            { type: 'Identifier',
+                              name: 'vvv',
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'MemberExpression',
+                              computed: true,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1015, 1038 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object], [Object] ],
+                           range: [ 1041, 1228 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1011, 1228 ],
+                        loc: { start: { line: 44, column: 3 }, end: { line: 49, column: 4 } } } ],
+                   range: [ 981, 1232 ],
+                   loc: 
+                    { start: { line: 42, column: 49 },
+                      end: { line: 50, column: 2 } } },
+                range: [ 960, 1232 ],
+                loc: 
+                 { start: { line: 42, column: 28 },
+                   end: { line: 50, column: 2 } } },
+             range: [ 933, 1232 ],
+             loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 2 } } },
+          range: [ 933, 1233 ],
+          loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+          comment: 
+           { range: [ 788, 929 ],
+             type: 'Block',
+             value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+             subject: [Circular] } } },
+     { range: [ 707, 778 ],
+       type: 'Block',
+       value: ' See constraintHierarchySolver for initialization of other members. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 933, 938 ],
+                      loc: { start: { line: 42, column: 1 }, end: { line: 42, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 940, 948 ],
+                      loc: 
+                       { start: { line: 42, column: 8 },
+                         end: { line: 42, column: 17 } } },
+                   range: [ 933, 948 ],
+                   loc: 
+                    { start: { line: 42, column: 1 },
+                      end: { line: 42, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 950, 956 ],
+                   loc: 
+                    { start: { line: 42, column: 18 },
+                      end: { line: 42, column: 25 } } },
+                range: [ 933, 956 ],
+                loc: 
+                 { start: { line: 42, column: 1 },
+                   end: { line: 42, column: 25 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 969, 975 ],
+                   loc: 
+                    { start: { line: 42, column: 37 },
+                      end: { line: 42, column: 44 } } },
+                params: 
+                 [ { type: 'Identifier',
+                     name: 'vv',
+                     range: [ 977, 978 ],
+                     loc: 
+                      { start: { line: 42, column: 45 },
+                        end: { line: 42, column: 47 } } } ],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 987, 1005 ],
+                        loc: 
+                         { start: { line: 43, column: 3 },
+                           end: { line: 43, column: 22 } } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '!==',
+                           left: 
+                            { type: 'Identifier',
+                              name: 'vvv',
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'MemberExpression',
+                              computed: true,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1015, 1038 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object], [Object] ],
+                           range: [ 1041, 1228 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1011, 1228 ],
+                        loc: { start: { line: 44, column: 3 }, end: { line: 49, column: 4 } } } ],
+                   range: [ 981, 1232 ],
+                   loc: 
+                    { start: { line: 42, column: 49 },
+                      end: { line: 50, column: 2 } } },
+                range: [ 960, 1232 ],
+                loc: 
+                 { start: { line: 42, column: 28 },
+                   end: { line: 50, column: 2 } } },
+             range: [ 933, 1232 ],
+             loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 2 } } },
+          range: [ 933, 1233 ],
+          loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+          comment: 
+           { range: [ 788, 929 ],
+             type: 'Block',
+             value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+             subject: [Circular] } } },
+     { range: [ 788, 929 ],
+       type: 'Block',
+       value: '*\n   * Promote a variable, giving it top priority.\n   * @method promote\n   * @memberOf hotdrink.model.Solver\n   * @param {Variable} vv\n   ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 933, 938 ],
+                      loc: { start: { line: 42, column: 1 }, end: { line: 42, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 940, 948 ],
+                      loc: 
+                       { start: { line: 42, column: 8 },
+                         end: { line: 42, column: 17 } } },
+                   range: [ 933, 948 ],
+                   loc: 
+                    { start: { line: 42, column: 1 },
+                      end: { line: 42, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 950, 956 ],
+                   loc: 
+                    { start: { line: 42, column: 18 },
+                      end: { line: 42, column: 25 } } },
+                range: [ 933, 956 ],
+                loc: 
+                 { start: { line: 42, column: 1 },
+                   end: { line: 42, column: 25 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'promote',
+                   range: [ 969, 975 ],
+                   loc: 
+                    { start: { line: 42, column: 37 },
+                      end: { line: 42, column: 44 } } },
+                params: 
+                 [ { type: 'Identifier',
+                     name: 'vv',
+                     range: [ 977, 978 ],
+                     loc: 
+                      { start: { line: 42, column: 45 },
+                        end: { line: 42, column: 47 } } } ],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 987, 1005 ],
+                        loc: 
+                         { start: { line: 43, column: 3 },
+                           end: { line: 43, column: 22 } } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '!==',
+                           left: 
+                            { type: 'Identifier',
+                              name: 'vvv',
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'MemberExpression',
+                              computed: true,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1015, 1038 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object], [Object] ],
+                           range: [ 1041, 1228 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1011, 1228 ],
+                        loc: { start: { line: 44, column: 3 }, end: { line: 49, column: 4 } } } ],
+                   range: [ 981, 1232 ],
+                   loc: 
+                    { start: { line: 42, column: 49 },
+                      end: { line: 50, column: 2 } } },
+                range: [ 960, 1232 ],
+                loc: 
+                 { start: { line: 42, column: 28 },
+                   end: { line: 50, column: 2 } } },
+             range: [ 933, 1232 ],
+             loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 2 } } },
+          range: [ 933, 1233 ],
+          loc: { start: { line: 42, column: 1 }, end: { line: 50, column: 3 } },
+          comment: [Circular] } },
+     { range: [ 1082, 1129 ],
+       type: 'Block',
+       value: ' Promote this variable to highest priority. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 1437, 1442 ],
+                      loc: { start: { line: 58, column: 1 }, end: { line: 58, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 1444, 1452 ],
+                      loc: 
+                       { start: { line: 58, column: 8 },
+                         end: { line: 58, column: 17 } } },
+                   range: [ 1437, 1452 ],
+                   loc: 
+                    { start: { line: 58, column: 1 },
+                      end: { line: 58, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'solve',
+                   range: [ 1454, 1458 ],
+                   loc: 
+                    { start: { line: 58, column: 18 },
+                      end: { line: 58, column: 23 } } },
+                range: [ 1437, 1458 ],
+                loc: 
+                 { start: { line: 58, column: 1 },
+                   end: { line: 58, column: 23 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'solve',
+                   range: [ 1471, 1475 ],
+                   loc: 
+                    { start: { line: 58, column: 35 },
+                      end: { line: 58, column: 40 } } },
+                params: [],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'IfStatement',
+                        test: 
+                         { type: 'UnaryExpression',
+                           operator: '!',
+                           argument: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1515, 1533 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object] ],
+                           range: [ 1536, 1596 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1511, 1596 ],
+                        loc: { start: { line: 60, column: 3 }, end: { line: 63, column: 4 } },
+                        comment: 
+                         { range: [ 1485, 1505 ],
+                           type: 'Block',
+                           value: ' Skip if we can. ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 1603, 1619 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 1603, 1620 ],
+                        loc: 
+                         { start: { line: 65, column: 3 },
+                           end: { line: 65, column: 21 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 1999, 2031 ],
+                        loc: 
+                         { start: { line: 73, column: 3 },
+                           end: { line: 73, column: 36 } },
+                        comment: 
+                         { range: [ 1627, 1993 ],
+                           type: 'Block',
+                           value: ' After this loop, every variable in priority after index j will have the\n     * same relative priority as in this.priorityPrev. The array slice of\n     * priority up to index j should hold the promoted variables.\n     *\n     * Note: The promotedSet may differ from the touchedSet. The user may have\n     * touched some variables without affecting their priority. ',
+                           subject: [Circular] } },
+                      { type: 'ForStatement',
+                        init: 
+                         { type: 'VariableDeclaration',
+                           declarations: [ [Object] ],
+                           kind: 'var',
+                           range: [ 2042, 2077 ],
+                           loc: { start: [Object], end: [Object] } },
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '>=',
+                           left: { type: 'Identifier', name: 'i', range: [Object], loc: [Object] },
+                           right: { type: 'Literal', value: 0, range: [Object], loc: [Object] },
+                           range: [ 2080, 2085 ],
+                           loc: { start: [Object], end: [Object] } },
+                        update: 
+                         { type: 'UpdateExpression',
+                           operator: '--',
+                           argument: { type: 'Identifier', name: 'i', range: [Object], loc: [Object] },
+                           prefix: true,
+                           range: [ 2088, 2090 ],
+                           loc: { start: [Object], end: [Object] } },
+                        body: 
+                         { type: 'BlockStatement',
+                           body: [ [Object] ],
+                           range: [ 2093, 2175 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2037, 2175 ],
+                        loc: { start: { line: 74, column: 3 }, end: { line: 78, column: 4 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 2181, 2228 ],
+                        loc: 
+                         { start: { line: 79, column: 3 },
+                           end: { line: 79, column: 51 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 2235, 2283 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2235, 2284 ],
+                        loc: 
+                         { start: { line: 81, column: 3 },
+                           end: { line: 81, column: 53 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 2290, 2330 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2290, 2331 ],
+                        loc: 
+                         { start: { line: 82, column: 3 },
+                           end: { line: 82, column: 45 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 2337, 2378 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2337, 2379 ],
+                        loc: 
+                         { start: { line: 83, column: 3 },
+                           end: { line: 83, column: 46 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 2490, 2586 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2490, 2587 ],
+                        loc: 
+                         { start: { line: 87, column: 3 },
+                           end: { line: 89, column: 12 } },
+                        comment: 
+                         { range: [ 2386, 2484 ],
+                           type: 'Block',
+                           value: ' TODO: This should be done outside the Solver so that clients can control\n     * the solution. ',
+                           subject: [Circular] } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '>',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: { type: 'Literal', value: 0, range: [Object], loc: [Object] },
+                           range: [ 2598, 2631 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object] ],
+                           range: [ 2634, 2756 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 2594, 2756 ],
+                        loc: { start: { line: 91, column: 3 }, end: { line: 94, column: 4 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 2874, 2978 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2874, 2979 ],
+                        loc: 
+                         { start: { line: 98, column: 3 },
+                           end: { line: 100, column: 12 } },
+                        comment: 
+                         { range: [ 2763, 2868 ],
+                           type: 'Block',
+                           value: ' Try to change the solution so that we can enforce the stay constraints\n     * of promoted variables. ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [],
+                           range: [ 2986, 3017 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2986, 3018 ],
+                        loc: 
+                         { start: { line: 102, column: 3 },
+                           end: { line: 102, column: 36 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 3025, 3050 ],
+                        loc: 
+                         { start: { line: 104, column: 3 },
+                           end: { line: 104, column: 29 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'ASSERT',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 3056, 3099 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3056, 3100 ],
+                        loc: 
+                         { start: { line: 105, column: 3 },
+                           end: { line: 105, column: 48 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 3106, 3133 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3106, 3134 ],
+                        loc: 
+                         { start: { line: 106, column: 3 },
+                           end: { line: 106, column: 32 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 3141, 3190 ],
+                        loc: 
+                         { start: { line: 108, column: 3 },
+                           end: { line: 108, column: 53 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 3196, 3231 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3196, 3232 ],
+                        loc: 
+                         { start: { line: 109, column: 3 },
+                           end: { line: 109, column: 40 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: { type: 'Literal', value: false, range: [Object], loc: [Object] },
+                           range: [ 3277, 3302 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3277, 3303 ],
+                        loc: 
+                         { start: { line: 112, column: 3 },
+                           end: { line: 112, column: 30 } },
+                        comment: 
+                         { range: [ 3239, 3271 ],
+                           type: 'Block',
+                           value: ' Prepare for the next solve. ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'CallExpression',
+                              callee: [Object],
+                              arguments: [],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3309, 3349 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3309, 3350 ],
+                        loc: 
+                         { start: { line: 113, column: 3 },
+                           end: { line: 113, column: 45 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'Identifier',
+                              name: 'plan',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3356, 3375 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3356, 3376 ],
+                        loc: 
+                         { start: { line: 114, column: 3 },
+                           end: { line: 114, column: 24 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 3382, 3406 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3382, 3407 ],
+                        loc: 
+                         { start: { line: 115, column: 3 },
+                           end: { line: 115, column: 29 } } },
+                      { type: 'ReturnStatement',
+                        argument: 
+                         { type: 'Identifier',
+                           name: 'planDiff',
+                           range: [ 3421, 3428 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3414, 3429 ],
+                        loc: 
+                         { start: { line: 117, column: 3 },
+                           end: { line: 117, column: 19 } } } ],
+                   range: [ 1479, 3433 ],
+                   loc: 
+                    { start: { line: 58, column: 43 },
+                      end: { line: 118, column: 2 } } },
+                range: [ 1462, 3433 ],
+                loc: 
+                 { start: { line: 58, column: 26 },
+                   end: { line: 118, column: 2 } } },
+             range: [ 1437, 3433 ],
+             loc: 
+              { start: { line: 58, column: 1 },
+                end: { line: 118, column: 2 } } },
+          range: [ 1437, 3434 ],
+          loc: 
+           { start: { line: 58, column: 1 },
+             end: { line: 118, column: 3 } },
+          comment: 
+           { range: [ 1238, 1433 ],
+             type: 'Block',
+             value: '*\n   * Use the priority to solve the constraint graph.\n   * @method solve\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]} Methods that are new in the solution.\n   ',
+             subject: [Circular] } } },
+     { range: [ 1238, 1433 ],
+       type: 'Block',
+       value: '*\n   * Use the priority to solve the constraint graph.\n   * @method solve\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]} Methods that are new in the solution.\n   ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 1437, 1442 ],
+                      loc: { start: { line: 58, column: 1 }, end: { line: 58, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 1444, 1452 ],
+                      loc: 
+                       { start: { line: 58, column: 8 },
+                         end: { line: 58, column: 17 } } },
+                   range: [ 1437, 1452 ],
+                   loc: 
+                    { start: { line: 58, column: 1 },
+                      end: { line: 58, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'solve',
+                   range: [ 1454, 1458 ],
+                   loc: 
+                    { start: { line: 58, column: 18 },
+                      end: { line: 58, column: 23 } } },
+                range: [ 1437, 1458 ],
+                loc: 
+                 { start: { line: 58, column: 1 },
+                   end: { line: 58, column: 23 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'solve',
+                   range: [ 1471, 1475 ],
+                   loc: 
+                    { start: { line: 58, column: 35 },
+                      end: { line: 58, column: 40 } } },
+                params: [],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'IfStatement',
+                        test: 
+                         { type: 'UnaryExpression',
+                           operator: '!',
+                           argument: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 1515, 1533 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object], [Object] ],
+                           range: [ 1536, 1596 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 1511, 1596 ],
+                        loc: { start: { line: 60, column: 3 }, end: { line: 63, column: 4 } },
+                        comment: 
+                         { range: [ 1485, 1505 ],
+                           type: 'Block',
+                           value: ' Skip if we can. ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 1603, 1619 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 1603, 1620 ],
+                        loc: 
+                         { start: { line: 65, column: 3 },
+                           end: { line: 65, column: 21 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 1999, 2031 ],
+                        loc: 
+                         { start: { line: 73, column: 3 },
+                           end: { line: 73, column: 36 } },
+                        comment: 
+                         { range: [ 1627, 1993 ],
+                           type: 'Block',
+                           value: ' After this loop, every variable in priority after index j will have the\n     * same relative priority as in this.priorityPrev. The array slice of\n     * priority up to index j should hold the promoted variables.\n     *\n     * Note: The promotedSet may differ from the touchedSet. The user may have\n     * touched some variables without affecting their priority. ',
+                           subject: [Circular] } },
+                      { type: 'ForStatement',
+                        init: 
+                         { type: 'VariableDeclaration',
+                           declarations: [ [Object] ],
+                           kind: 'var',
+                           range: [ 2042, 2077 ],
+                           loc: { start: [Object], end: [Object] } },
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '>=',
+                           left: { type: 'Identifier', name: 'i', range: [Object], loc: [Object] },
+                           right: { type: 'Literal', value: 0, range: [Object], loc: [Object] },
+                           range: [ 2080, 2085 ],
+                           loc: { start: [Object], end: [Object] } },
+                        update: 
+                         { type: 'UpdateExpression',
+                           operator: '--',
+                           argument: { type: 'Identifier', name: 'i', range: [Object], loc: [Object] },
+                           prefix: true,
+                           range: [ 2088, 2090 ],
+                           loc: { start: [Object], end: [Object] } },
+                        body: 
+                         { type: 'BlockStatement',
+                           body: [ [Object] ],
+                           range: [ 2093, 2175 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2037, 2175 ],
+                        loc: { start: { line: 74, column: 3 }, end: { line: 78, column: 4 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 2181, 2228 ],
+                        loc: 
+                         { start: { line: 79, column: 3 },
+                           end: { line: 79, column: 51 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 2235, 2283 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2235, 2284 ],
+                        loc: 
+                         { start: { line: 81, column: 3 },
+                           end: { line: 81, column: 53 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 2290, 2330 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2290, 2331 ],
+                        loc: 
+                         { start: { line: 82, column: 3 },
+                           end: { line: 82, column: 45 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 2337, 2378 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2337, 2379 ],
+                        loc: 
+                         { start: { line: 83, column: 3 },
+                           end: { line: 83, column: 46 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 2490, 2586 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2490, 2587 ],
+                        loc: 
+                         { start: { line: 87, column: 3 },
+                           end: { line: 89, column: 12 } },
+                        comment: 
+                         { range: [ 2386, 2484 ],
+                           type: 'Block',
+                           value: ' TODO: This should be done outside the Solver so that clients can control\n     * the solution. ',
+                           subject: [Circular] } },
+                      { type: 'IfStatement',
+                        test: 
+                         { type: 'BinaryExpression',
+                           operator: '>',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: { type: 'Literal', value: 0, range: [Object], loc: [Object] },
+                           range: [ 2598, 2631 ],
+                           loc: { start: [Object], end: [Object] } },
+                        consequent: 
+                         { type: 'BlockStatement',
+                           body: [ [Object] ],
+                           range: [ 2634, 2756 ],
+                           loc: { start: [Object], end: [Object] } },
+                        alternate: null,
+                        range: [ 2594, 2756 ],
+                        loc: { start: { line: 91, column: 3 }, end: { line: 94, column: 4 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 2874, 2978 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2874, 2979 ],
+                        loc: 
+                         { start: { line: 98, column: 3 },
+                           end: { line: 100, column: 12 } },
+                        comment: 
+                         { range: [ 2763, 2868 ],
+                           type: 'Block',
+                           value: ' Try to change the solution so that we can enforce the stay constraints\n     * of promoted variables. ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [],
+                           range: [ 2986, 3017 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2986, 3018 ],
+                        loc: 
+                         { start: { line: 102, column: 3 },
+                           end: { line: 102, column: 36 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 3025, 3050 ],
+                        loc: 
+                         { start: { line: 104, column: 3 },
+                           end: { line: 104, column: 29 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'ASSERT',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 3056, 3099 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3056, 3100 ],
+                        loc: 
+                         { start: { line: 105, column: 3 },
+                           end: { line: 105, column: 48 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 3106, 3133 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3106, 3134 ],
+                        loc: 
+                         { start: { line: 106, column: 3 },
+                           end: { line: 106, column: 32 } } },
+                      { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 3141, 3190 ],
+                        loc: 
+                         { start: { line: 108, column: 3 },
+                           end: { line: 108, column: 53 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 3196, 3231 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3196, 3232 ],
+                        loc: 
+                         { start: { line: 109, column: 3 },
+                           end: { line: 109, column: 40 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: { type: 'Literal', value: false, range: [Object], loc: [Object] },
+                           range: [ 3277, 3302 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3277, 3303 ],
+                        loc: 
+                         { start: { line: 112, column: 3 },
+                           end: { line: 112, column: 30 } },
+                        comment: 
+                         { range: [ 3239, 3271 ],
+                           type: 'Block',
+                           value: ' Prepare for the next solve. ',
+                           subject: [Circular] } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'CallExpression',
+                              callee: [Object],
+                              arguments: [],
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3309, 3349 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3309, 3350 ],
+                        loc: 
+                         { start: { line: 113, column: 3 },
+                           end: { line: 113, column: 45 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'AssignmentExpression',
+                           operator: '=',
+                           left: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           right: 
+                            { type: 'Identifier',
+                              name: 'plan',
+                              range: [Object],
+                              loc: [Object] },
+                           range: [ 3356, 3375 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3356, 3376 ],
+                        loc: 
+                         { start: { line: 114, column: 3 },
+                           end: { line: 114, column: 24 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'Identifier',
+                              name: 'LOG',
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object] ],
+                           range: [ 3382, 3406 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3382, 3407 ],
+                        loc: 
+                         { start: { line: 115, column: 3 },
+                           end: { line: 115, column: 29 } } },
+                      { type: 'ReturnStatement',
+                        argument: 
+                         { type: 'Identifier',
+                           name: 'planDiff',
+                           range: [ 3421, 3428 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3414, 3429 ],
+                        loc: 
+                         { start: { line: 117, column: 3 },
+                           end: { line: 117, column: 19 } } } ],
+                   range: [ 1479, 3433 ],
+                   loc: 
+                    { start: { line: 58, column: 43 },
+                      end: { line: 118, column: 2 } } },
+                range: [ 1462, 3433 ],
+                loc: 
+                 { start: { line: 58, column: 26 },
+                   end: { line: 118, column: 2 } } },
+             range: [ 1437, 3433 ],
+             loc: 
+              { start: { line: 58, column: 1 },
+                end: { line: 118, column: 2 } } },
+          range: [ 1437, 3434 ],
+          loc: 
+           { start: { line: 58, column: 1 },
+             end: { line: 118, column: 3 } },
+          comment: [Circular] } },
+     { range: [ 1485, 1505 ],
+       type: 'Block',
+       value: ' Skip if we can. ',
+       subject: 
+        { type: 'IfStatement',
+          test: 
+           { type: 'UnaryExpression',
+             operator: '!',
+             argument: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'ThisExpression',
+                   range: [ 1516, 1519 ],
+                   loc: 
+                    { start: { line: 60, column: 8 },
+                      end: { line: 60, column: 12 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'needsSolution',
+                   range: [ 1521, 1533 ],
+                   loc: 
+                    { start: { line: 60, column: 13 },
+                      end: { line: 60, column: 26 } } },
+                range: [ 1516, 1533 ],
+                loc: 
+                 { start: { line: 60, column: 8 },
+                   end: { line: 60, column: 26 } } },
+             range: [ 1515, 1533 ],
+             loc: 
+              { start: { line: 60, column: 7 },
+                end: { line: 60, column: 26 } } },
+          consequent: 
+           { type: 'BlockStatement',
+             body: 
+              [ { type: 'ExpressionStatement',
+                  expression: 
+                   { type: 'CallExpression',
+                     callee: 
+                      { type: 'Identifier',
+                        name: 'LOG',
+                        range: [ 1544, 1546 ],
+                        loc: { start: { line: 61, column: 5 }, end: { line: 61, column: 8 } } },
+                     arguments: 
+                      [ { type: 'Literal',
+                          value: 'Reusing last solution.',
+                          range: [ 1548, 1571 ],
+                          loc: { start: [Object], end: [Object] } } ],
+                     range: [ 1544, 1572 ],
+                     loc: 
+                      { start: { line: 61, column: 5 },
+                        end: { line: 61, column: 34 } } },
+                  range: [ 1544, 1573 ],
+                  loc: 
+                   { start: { line: 61, column: 5 },
+                     end: { line: 61, column: 35 } } },
+                { type: 'ReturnStatement',
+                  argument: 
+                   { type: 'ArrayExpression',
+                     elements: [],
+                     range: [ 1588, 1589 ],
+                     loc: 
+                      { start: { line: 62, column: 12 },
+                        end: { line: 62, column: 14 } } },
+                  range: [ 1581, 1590 ],
+                  loc: 
+                   { start: { line: 62, column: 5 },
+                     end: { line: 62, column: 15 } } } ],
+             range: [ 1536, 1596 ],
+             loc: 
+              { start: { line: 60, column: 28 },
+                end: { line: 63, column: 4 } } },
+          alternate: null,
+          range: [ 1511, 1596 ],
+          loc: { start: { line: 60, column: 3 }, end: { line: 63, column: 4 } },
+          comment: [Circular] } },
+     { range: [ 1627, 1993 ],
+       type: 'Block',
+       value: ' After this loop, every variable in priority after index j will have the\n     * same relative priority as in this.priorityPrev. The array slice of\n     * priority up to index j should hold the promoted variables.\n     *\n     * Note: The promotedSet may differ from the touchedSet. The user may have\n     * touched some variables without affecting their priority. ',
+       subject: 
+        { type: 'VariableDeclaration',
+          declarations: 
+           [ { type: 'VariableDeclarator',
+               id: 
+                { type: 'Identifier',
+                  name: 'j',
+                  range: [ 2003, 2003 ],
+                  loc: { start: { line: 73, column: 7 }, end: { line: 73, column: 8 } } },
+               init: 
+                { type: 'BinaryExpression',
+                  operator: '-',
+                  left: 
+                   { type: 'MemberExpression',
+                     computed: false,
+                     object: 
+                      { type: 'MemberExpression',
+                        computed: false,
+                        object: 
+                         { type: 'ThisExpression',
+                           range: [ 2007, 2010 ],
+                           loc: { start: [Object], end: [Object] } },
+                        property: 
+                         { type: 'Identifier',
+                           name: 'priority',
+                           range: [ 2012, 2019 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 2007, 2019 ],
+                        loc: 
+                         { start: { line: 73, column: 11 },
+                           end: { line: 73, column: 24 } } },
+                     property: 
+                      { type: 'Identifier',
+                        name: 'length',
+                        range: [ 2021, 2026 ],
+                        loc: 
+                         { start: { line: 73, column: 25 },
+                           end: { line: 73, column: 31 } } },
+                     range: [ 2007, 2026 ],
+                     loc: 
+                      { start: { line: 73, column: 11 },
+                        end: { line: 73, column: 31 } } },
+                  right: 
+                   { type: 'Literal',
+                     value: 1,
+                     range: [ 2030, 2030 ],
+                     loc: 
+                      { start: { line: 73, column: 34 },
+                        end: { line: 73, column: 35 } } },
+                  range: [ 2007, 2030 ],
+                  loc: 
+                   { start: { line: 73, column: 11 },
+                     end: { line: 73, column: 35 } } },
+               range: [ 2003, 2030 ],
+               loc: 
+                { start: { line: 73, column: 7 },
+                  end: { line: 73, column: 35 } } } ],
+          kind: 'var',
+          range: [ 1999, 2031 ],
+          loc: 
+           { start: { line: 73, column: 3 },
+             end: { line: 73, column: 36 } },
+          comment: [Circular] } },
+     { range: [ 2386, 2484 ],
+       type: 'Block',
+       value: ' TODO: This should be done outside the Solver so that clients can control\n     * the solution. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'CallExpression',
+             callee: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'ThisExpression',
+                      range: [ 2490, 2493 ],
+                      loc: { start: { line: 87, column: 3 }, end: { line: 87, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'priority',
+                      range: [ 2495, 2502 ],
+                      loc: 
+                       { start: { line: 87, column: 8 },
+                         end: { line: 87, column: 16 } } },
+                   range: [ 2490, 2502 ],
+                   loc: 
+                    { start: { line: 87, column: 3 },
+                      end: { line: 87, column: 16 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'forEach',
+                   range: [ 2504, 2510 ],
+                   loc: 
+                    { start: { line: 87, column: 17 },
+                      end: { line: 87, column: 24 } } },
+                range: [ 2490, 2510 ],
+                loc: 
+                 { start: { line: 87, column: 3 },
+                   end: { line: 87, column: 24 } } },
+             arguments: 
+              [ { type: 'FunctionExpression',
+                  id: null,
+                  params: 
+                   [ { type: 'Identifier',
+                       name: 'vvv',
+                       range: [ 2522, 2524 ],
+                       loc: 
+                        { start: { line: 87, column: 35 },
+                          end: { line: 87, column: 38 } } },
+                     { type: 'Identifier',
+                       name: 'i',
+                       range: [ 2527, 2527 ],
+                       loc: 
+                        { start: { line: 87, column: 40 },
+                          end: { line: 87, column: 41 } } } ],
+                  body: 
+                   { type: 'BlockStatement',
+                     body: 
+                      [ { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'AssignmentExpression',
+                             operator: '=',
+                             left: [Object],
+                             right: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 2538, 2573 ],
+                          loc: { start: [Object], end: [Object] } } ],
+                     range: [ 2530, 2579 ],
+                     loc: 
+                      { start: { line: 87, column: 43 },
+                        end: { line: 89, column: 4 } } },
+                  range: [ 2512, 2579 ],
+                  loc: 
+                   { start: { line: 87, column: 25 },
+                     end: { line: 89, column: 4 } } },
+                { type: 'ThisExpression',
+                  range: [ 2582, 2585 ],
+                  loc: 
+                   { start: { line: 89, column: 6 },
+                     end: { line: 89, column: 10 } } } ],
+             range: [ 2490, 2586 ],
+             loc: 
+              { start: { line: 87, column: 3 },
+                end: { line: 89, column: 11 } } },
+          range: [ 2490, 2587 ],
+          loc: 
+           { start: { line: 87, column: 3 },
+             end: { line: 89, column: 12 } },
+          comment: [Circular] } },
+     { range: [ 2763, 2868 ],
+       type: 'Block',
+       value: ' Try to change the solution so that we can enforce the stay constraints\n     * of promoted variables. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'CallExpression',
+             callee: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'Identifier',
+                   name: 'promotedSet',
+                   range: [ 2874, 2884 ],
+                   loc: 
+                    { start: { line: 98, column: 3 },
+                      end: { line: 98, column: 14 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'forEach',
+                   range: [ 2886, 2892 ],
+                   loc: 
+                    { start: { line: 98, column: 15 },
+                      end: { line: 98, column: 22 } } },
+                range: [ 2874, 2892 ],
+                loc: 
+                 { start: { line: 98, column: 3 },
+                   end: { line: 98, column: 22 } } },
+             arguments: 
+              [ { type: 'FunctionExpression',
+                  id: null,
+                  params: 
+                   [ { type: 'Identifier',
+                       name: 'vvv',
+                       range: [ 2904, 2906 ],
+                       loc: 
+                        { start: { line: 98, column: 33 },
+                          end: { line: 98, column: 36 } } } ],
+                  body: 
+                   { type: 'BlockStatement',
+                     body: 
+                      [ { type: 'ExpressionStatement',
+                          expression: 
+                           { type: 'CallExpression',
+                             callee: [Object],
+                             arguments: [Object],
+                             range: [Object],
+                             loc: [Object] },
+                          range: [ 2917, 2965 ],
+                          loc: { start: [Object], end: [Object] } } ],
+                     range: [ 2909, 2971 ],
+                     loc: 
+                      { start: { line: 98, column: 38 },
+                        end: { line: 100, column: 4 } } },
+                  range: [ 2894, 2971 ],
+                  loc: 
+                   { start: { line: 98, column: 23 },
+                     end: { line: 100, column: 4 } } },
+                { type: 'ThisExpression',
+                  range: [ 2974, 2977 ],
+                  loc: 
+                   { start: { line: 100, column: 6 },
+                     end: { line: 100, column: 10 } } } ],
+             range: [ 2874, 2978 ],
+             loc: 
+              { start: { line: 98, column: 3 },
+                end: { line: 100, column: 11 } } },
+          range: [ 2874, 2979 ],
+          loc: 
+           { start: { line: 98, column: 3 },
+             end: { line: 100, column: 12 } },
+          comment: [Circular] } },
+     { range: [ 3239, 3271 ],
+       type: 'Block',
+       value: ' Prepare for the next solve. ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'ThisExpression',
+                   range: [ 3277, 3280 ],
+                   loc: 
+                    { start: { line: 112, column: 3 },
+                      end: { line: 112, column: 7 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'needsSolution',
+                   range: [ 3282, 3294 ],
+                   loc: 
+                    { start: { line: 112, column: 8 },
+                      end: { line: 112, column: 21 } } },
+                range: [ 3277, 3294 ],
+                loc: 
+                 { start: { line: 112, column: 3 },
+                   end: { line: 112, column: 21 } } },
+             right: 
+              { type: 'Literal',
+                value: false,
+                range: [ 3298, 3302 ],
+                loc: 
+                 { start: { line: 112, column: 24 },
+                   end: { line: 112, column: 29 } } },
+             range: [ 3277, 3302 ],
+             loc: 
+              { start: { line: 112, column: 3 },
+                end: { line: 112, column: 29 } } },
+          range: [ 3277, 3303 ],
+          loc: 
+           { start: { line: 112, column: 3 },
+             end: { line: 112, column: 30 } },
+          comment: [Circular] } },
+     { range: [ 3439, 3606 ],
+       type: 'Block',
+       value: '*\n   * @method getPlan\n   * @memberOf hotdrink.model.Solver\n   * @returns {[hotdrink.model.Method]}\n   *   Methods selected for satisfied, required constraints.\n   ',
+       subject: 
+        { type: 'ExpressionStatement',
+          expression: 
+           { type: 'AssignmentExpression',
+             operator: '=',
+             left: 
+              { type: 'MemberExpression',
+                computed: false,
+                object: 
+                 { type: 'MemberExpression',
+                   computed: false,
+                   object: 
+                    { type: 'Identifier',
+                      name: 'Solver',
+                      range: [ 3610, 3615 ],
+                      loc: 
+                       { start: { line: 126, column: 1 },
+                         end: { line: 126, column: 7 } } },
+                   property: 
+                    { type: 'Identifier',
+                      name: 'prototype',
+                      range: [ 3617, 3625 ],
+                      loc: 
+                       { start: { line: 126, column: 8 },
+                         end: { line: 126, column: 17 } } },
+                   range: [ 3610, 3625 ],
+                   loc: 
+                    { start: { line: 126, column: 1 },
+                      end: { line: 126, column: 17 } } },
+                property: 
+                 { type: 'Identifier',
+                   name: 'getPlan',
+                   range: [ 3627, 3633 ],
+                   loc: 
+                    { start: { line: 126, column: 18 },
+                      end: { line: 126, column: 25 } } },
+                range: [ 3610, 3633 ],
+                loc: 
+                 { start: { line: 126, column: 1 },
+                   end: { line: 126, column: 25 } } },
+             right: 
+              { type: 'FunctionExpression',
+                id: 
+                 { type: 'Identifier',
+                   name: 'getPlan',
+                   range: [ 3646, 3652 ],
+                   loc: 
+                    { start: { line: 126, column: 37 },
+                      end: { line: 126, column: 44 } } },
+                params: [],
+                body: 
+                 { type: 'BlockStatement',
+                   body: 
+                    [ { type: 'VariableDeclaration',
+                        declarations: 
+                         [ { type: 'VariableDeclarator',
+                             id: [Object],
+                             init: [Object],
+                             range: [Object],
+                             loc: [Object] } ],
+                        kind: 'var',
+                        range: [ 3662, 3677 ],
+                        loc: 
+                         { start: { line: 127, column: 3 },
+                           end: { line: 127, column: 19 } } },
+                      { type: 'ExpressionStatement',
+                        expression: 
+                         { type: 'CallExpression',
+                           callee: 
+                            { type: 'MemberExpression',
+                              computed: false,
+                              object: [Object],
+                              property: [Object],
+                              range: [Object],
+                              loc: [Object] },
+                           arguments: [ [Object], [Object] ],
+                           range: [ 3683, 4061 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 3683, 4062 ],
+                        loc: 
+                         { start: { line: 128, column: 3 },
+                           end: { line: 136, column: 12 } } },
+                      { type: 'ReturnStatement',
+                        argument: 
+                         { type: 'Identifier',
+                           name: 'result',
+                           range: [ 4075, 4080 ],
+                           loc: { start: [Object], end: [Object] } },
+                        range: [ 4068, 4081 ],
+                        loc: 
+                         { start: { line: 137, column: 3 },
+                           end: { line: 137, column: 17 } } } ],
+                   range: [ 3656, 4085 ],
+                   loc: 
+                    { start: { line: 126, column: 47 },
+                      end: { line: 138, column: 2 } } },
+                range: [ 3637, 4085 ],
+                loc: 
+                 { start: { line: 126, column: 28 },
+                   end: { line: 138, column: 2 } } },
+             range: [ 3610, 4085 ],
+             loc: 
+              { start: { line: 126, column: 1 },
+                end: { line: 138, column: 2 } } },
+          range: [ 3610, 4086 ],
+          loc: 
+           { start: { line: 126, column: 1 },
+             end: { line: 138, column: 3 } },
+          comment: [Circular] } } ] }
